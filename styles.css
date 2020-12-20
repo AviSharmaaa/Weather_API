@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins" , sans-serif;
+    color: #fff;
+    background-color: #343434;
+}
+
+.container {
+    width: 26%;
+}
+
+.card1 {
+    border-radius: 50px 50px 10px 10px;
+    background-color: #343434;
+    box-shadow: 5px 5px 10px #191b1b, -5px -5px 10px #595959;
+    padding: 5% 3%;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 5%;
+    
+    
+}
+
+.card2 {
+  
+    border-radius: 10px 10px 50px 50px;
+    background-color: #343434;
+    box-shadow: 5px 5px 10px #191b1b, -5px -5px 10px #595959;
+    padding: 5% 3%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card1 h4 {
+    font-size: 4rem;
+    font-weight: 400;
+    margin: 1rem 0;
+}
+
+img#icon {
+    align-items: center;
+    width: 30%;
+}
+
+h6#weather {
+    text-transform: capitalize;
+}
+
+button.refresh {
+    display: block;
+    width: 60px;
+    margin: 5px auto;
+    border: 0;
+    background-color: transparent;
+    color: #9c9c9d;
+    font-size: 30px;
+    height: 60px;
+    border-radius: 50%;
+    box-shadow: 5px 2px 9px #252525, 5px 5px 18px #4a4a4a;
+    transition: 0.3s;
+
+}
+
+button.search {
+    display: block;
+    width: 60px;
+    margin: 5px auto;
+    border: 0;
+    background-color: transparent;
+    color: #9c9c9d;
+    font-size: 30px;
+    height: 60px;
+    border-radius: 50%;
+    box-shadow: 5px 2px 9px #252525, 5px 5px 18px #4a4a4a;
+    transition: 0.3s;
+}
+
+button.refresh:hover {
+    box-shadow: inset 10px 4px 18px #252525, inset 5px 5px 10px #4a4a4a;
+}
+
+
+#city-name {
+    border-radius: 20%;
+}
