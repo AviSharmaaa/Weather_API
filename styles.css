@@ -14,6 +14,38 @@ body {
     width: 26%;
 }
 
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+
+
+.search-bar {
+    margin: 7%;
+    box-shadow: 5px 5px 10px #191b1b, -5px -5px 10px #595959;
+    padding: 5% 3%;
+    border-radius: 15px;
+}
+
+.search-box {
+    border-radius: 15px;
+    font-family: "Ubuntu";
+    font-weight: 400;
+    margin: 0 10px;
+    width: 80%;
+    text-align: center;
+}
+
+.fa-search {
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+}
+
 .card1 {
     border-radius: 50px 50px 10px 10px;
     background-color: #343434;
@@ -22,12 +54,9 @@ body {
     text-align: center;
     align-items: center;
     margin-bottom: 5%;
-    
-    
 }
 
 .card2 {
-  
     border-radius: 10px 10px 50px 50px;
     background-color: #343434;
     box-shadow: 5px 5px 10px #191b1b, -5px -5px 10px #595959;
@@ -51,22 +80,7 @@ h6#weather {
     text-transform: capitalize;
 }
 
-button.refresh {
-    display: block;
-    width: 60px;
-    margin: 5px auto;
-    border: 0;
-    background-color: transparent;
-    color: #9c9c9d;
-    font-size: 30px;
-    height: 60px;
-    border-radius: 50%;
-    box-shadow: 5px 2px 9px #252525, 5px 5px 18px #4a4a4a;
-    transition: 0.3s;
-
-}
-
-button.search {
+button.btnn {
     display: block;
     width: 60px;
     margin: 5px auto;
@@ -80,11 +94,31 @@ button.search {
     transition: 0.3s;
 }
 
-button.refresh:hover {
+button.btnn:hover {
     box-shadow: inset 10px 4px 18px #252525, inset 5px 5px 10px #4a4a4a;
 }
 
 
 #city-name {
     border-radius: 20%;
+}
+
+@media (max-width: 1020px) {
+    body{
+        align-items: center;
+        text-align: center;
+    }
+
+    .container{
+        width: 40%;
+    }
+
+     #temp {
+        font-size: 90%;
+    } 
+
+    img#icon {
+        height: 40%;
+        width: 40%;
+    }
 }

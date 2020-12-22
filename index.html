@@ -18,29 +18,44 @@
       src="https://kit.fontawesome.com/d4c0d21745.js"
       crossorigin="anonymous"
     ></script>
-    
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@900&family=Ubuntu&display=swap"
       rel="stylesheet"
     />
   </head>
   <body>
     <div class="container">
+      <div class="search-bar hide">
+        <form action="">
+          <label for=""
+            ><i class="fa fa-search search-box" aria-hidden="true"></i
+          ></label>
+          <input
+            class="search-box"
+            type="text"
+            name="city"
+            placeholder="Enter City"
+          />
+        </form>
+      </div>
+
       <div class="card1">
         <h2>
           <i class="fas fa-map-marker-alt"></i> <span id="location">Delhi</span>
         </h2>
         <h6 id="weather">Haze</h6>
-        <h4><span id="temp">15.7</span><sup> o</sup>C</h4>
-        <img id="icon" src="50d@2x.png" alt="weather-icon" />
+        <h4><span id="temp">16.4</span><sup> o</sup>C</h4>
+        <img id="icon" src="" alt="weather-icon" />
       </div>
 
-      <div class = "card2">
-        <button class="search"><i class="fa fa-search" aria-hidden="true"></i>
+      <div class="card2">
+        <button class="btnn search">
+          <i class="fa fa-search" aria-hidden="true"></i>
         </button>
-        
-        <button class="refresh"><i class="fas fa-redo-alt"></i></button>
+        <button class="btnn refresh"><i class="fas fa-redo-alt"></i></button>
       </div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
