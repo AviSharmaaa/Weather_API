@@ -18,46 +18,56 @@
       src="https://kit.fontawesome.com/d4c0d21745.js"
       crossorigin="anonymous"
     ></script>
-
+    
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@900&family=Ubuntu&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@900&family=Ubuntu&display=swap" rel="stylesheet">
   </head>
   <body>
-    <div class="container">
-      <div class="search-bar hide">
-        <form action="">
-          <label for=""
-            ><i class="fa fa-search search-box" aria-hidden="true"></i
-          ></label>
-          <input
-            class="search-box"
-            type="text"
-            name="city"
-            placeholder="Enter City"
-          />
-        </form>
+
+    <div class = "info-container hidden">
+      <div class = "extra-info">
+        <h6>Humidity</h4>
+        <h5 id = "humid"></h5>
       </div>
 
-      <div class="card1">
-        <h2>
-          <i class="fas fa-map-marker-alt"></i> <span id="location">Delhi</span>
-        </h2>
-        <h6 id="weather">Haze</h6>
-        <h4><span id="temp">16.4</span><sup> o</sup>C</h4>
-        <img id="icon" src="" alt="weather-icon" />
+      <div class = "extra-info">
+        <h6>Min/Max</h4>
+        <p id = "min-max"></p>
       </div>
 
-      <div class="card2">
-        <button class="btnn search">
-          <i class="fa fa-search" aria-hidden="true"></i>
-        </button>
-        <button class="btnn refresh"><i class="fas fa-redo-alt"></i></button>
+      <div class = "extra-info">
+        <h6>Pressure</h4>
+        <p id = "pressure"></p>
       </div>
     </div>
+
+    <div class="container">
+      
+        <div class = "search-bar hide">
+            <label for=""><i class="fa fa-search search-box" aria-hidden="true"></i></label>
+            <input class = "search-box" type="text" name="city" placeholder="Enter City">
+        </div>
+      
+        <div class="card1">
+          <h2>
+            <i class="fas fa-map-marker-alt"></i> <span id="location">Delhi</span>
+          </h2>
+          <h6 id="weather">Haze</h6>
+          <h4><span id="temp">16.4</span><sup> o</sup>C</h4>
+          <img id="icon" src="" alt="weather-icon" />
+        </div>
+  
+        <div class = "card2">
+          <button class="btnn search"><i class="fa fa-search" aria-hidden="true"></i></button>
+          <button class="btnn plus"><i class="fa fa-plus" aria-hidden="true"></i></button>
+        </div>
+        <div id = "footer">
+          <p>Designed By: <a href="https://github.com/AviSharma1305">Avi Sharma</a></p>
+        </div>
+      </div>
+     
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="index.js" charset="utf-8"></script>
   </body>
