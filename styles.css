@@ -16,7 +16,7 @@ body {
 .info-container {
   width: 7%;
   margin-left: 24%;
-  margin-top: 10%;
+  margin-top: 17%;
 }
 
 .show {
@@ -46,6 +46,7 @@ body {
   box-shadow: 5px 5px 10px #191b1b, -5px -5px 10px #191b1b;
   padding: 5% 3%;
   border-radius: 15px;
+  outline: none;
 }
 
 .search-box {
@@ -55,6 +56,7 @@ body {
   margin: 0 10px;
   width: 80%;
   text-align: center;
+  outline: none;
 }
 
 .fa-search {
@@ -109,6 +111,7 @@ button.btnn {
   border-radius: 50%;
   box-shadow: 5px 2px 9px #252525, 5px 5px 18px #4a4a4a;
   transition: 0.3s;
+  outline: none;
 }
 
 button.btnn:hover {
